@@ -1,1 +1,2 @@
 # Jumping-on-the-Clouds
+This C# program calculates the minimum number of jumps needed to traverse a cloud path. The `jumpingOnClouds` function iterates through the cloud array `c`, always trying to jump two clouds if possible (and safe), otherwise jumping one, counting each jump until reaching the last cloud. The `Main` method reads the cloud configuration from input, calls the function, and outputs the total jumps.
